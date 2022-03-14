@@ -14,6 +14,7 @@
   "dependencies": {
     "vite-plugin-vue2": "^1.9.3",
     "vue": "^2.6.14",
+    "vue-property-decorator": "^9.1.2",
     "vue-template-compiler": "^2.6.14"
   }
 }
