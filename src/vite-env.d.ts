@@ -5,7 +5,9 @@ declare module '*.vue' {
   // // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/ban-types
   // const component: DefineComponent<{}, {}, any>
   // export default component
-  import Vue = require('vue')
-  const value: Vue.ComponentOptions<Vue>
-  export default value
+  // import Vue from 'vue';
+  // const value: Vue.ComponentOptions<Vue>
+  // export default value
+  import Vue from 'vue'
+  export default Vue
 }
