@@ -11,3 +11,9 @@ declare module '*.vue' {
   import Vue from 'vue'
   export default Vue
 }
+
+// declare const process.env.VUE_ENV: 'client' | 'server' | 'ssr'
+
+interface ProcessEnv {
+  VUE_ENV: 'client' | 'server' | 'ssr'
+}

@@ -7,7 +7,9 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from 'vue-property-decorator'
-import Button from '../../components/button.vue'
+import Button from '@/components/button.vue'
+
+console.log(process.env.VUE_ENV);
 
 @Component({
   components: {
